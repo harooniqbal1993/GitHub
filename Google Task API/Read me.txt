@@ -1,0 +1,12 @@
+Working of Task:
+
+1.  First install Python 2.4 or greater (to provide a web server).
+2.  Download GitHub project from this link https://github.com/harooniqbal1993/GitHub
+3.  Now copy 'quickstart.html' from 'GitHub/Google Task API' to python folder.
+4.  Open python folder and press 'Shift+Right Click' and select 'Open Command Window Here'.
+5.  Now enter this command in command prompt 'python -m http.server 8000'. This will start a server 'localhost:8000'.
+6.  Open browser and enter the link 'localhost:8000/quickstart.html'. This will open a webpage.
+7.  Click the button 'Sign In' to signin with gmail account and give permission.
+8.  This webpage will first check if "Default" task list is present or not. If it is present it will show its task in list and if not present it will create "Default" tasklist.
+9.  It can add new task using this webpage. Also it can delete tasks individually by pressing "Delete" button present in-front of each task. 
+10. It can also clear all tasks from the "Default" list.
